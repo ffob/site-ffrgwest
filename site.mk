@@ -15,6 +15,7 @@ GLUON_SITE_PACKAGES := \
         gluon-luci-admin \
         gluon-luci-autoupdater \
         gluon-luci-portconfig \
+        gluon-luci-mesh-vpn-fastd \
         gluon-luci-private-wifi \
         gluon-luci-wifi-config \
         gluon-next-node \
@@ -25,7 +26,7 @@ GLUON_SITE_PACKAGES := \
         iptables \
         haveged
 
-DEFAULT_GLUON_RELEASE := 0.7.1
+DEFAULT_GLUON_RELEASE := 0.7.2
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
