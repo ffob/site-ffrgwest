@@ -14,6 +14,7 @@ GLUON_SITE_PACKAGES := \
         gluon-ebtables-filter-ra-dhcp \
         gluon-luci-admin \
         gluon-luci-autoupdater \
+        gluon-luci-mesh-vpn-fastd \
         gluon-luci-portconfig \
         gluon-luci-mesh-vpn-fastd \
         gluon-luci-private-wifi \
