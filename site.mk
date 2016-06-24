@@ -1,7 +1,6 @@
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-15 \
         gluon-alfred \
-        gluon-announced \
         gluon-autoupdater \
         gluon-setup-mode \
         gluon-config-mode-core \
@@ -22,11 +21,13 @@ GLUON_SITE_PACKAGES := \
         gluon-mesh-vpn-fastd \
         gluon-radvd \
         gluon-status-page \
+	gluon-setup-mode \
+	gluon-config-mode-core \
         iwinfo \
         iptables \
         haveged
 
-DEFAULT_GLUON_RELEASE := 0.7.2
+DEFAULT_GLUON_RELEASE := 0.8.5
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
