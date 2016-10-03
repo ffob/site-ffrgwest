@@ -31,9 +31,12 @@ GLUON_SITE_PACKAGES := \
 
 GLUON_LANGS ?= en de
 
-DEFAULT_GLUON_RELEASE := 0.8.0+stable+ffrgwest
+DEFAULT_GLUON_RELEASE := 0.8.7+exp$(shell date '+%Y%m%d')+ffrgwest
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
+
+# Region code required for some images; supported values: us eu
+GLUON_REGION ?= eu
