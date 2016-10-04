@@ -23,8 +23,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-mesh-vpn-tunneldigger \
 	gluon-radvd \
 	gluon-status-page \
-	gluon-setup-mode \
-	gluon-config-mode-core \
 	iwinfo \
 	iptables \
 	haveged
