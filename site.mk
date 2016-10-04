@@ -1,32 +1,33 @@
 GLUON_SITE_PACKAGES := \
-        gluon-mesh-batman-adv-15 \
-        gluon-alfred \
-        gluon-autoupdater \
-        gluon-setup-mode \
-        gluon-config-mode-core \
-        gluon-config-mode-autoupdater \
-        gluon-config-mode-hostname \
-	gluon-config-mode-tunneldigger \
-        gluon-config-mode-geo-location \
-        gluon-config-mode-contact-info \
-        gluon-ebtables-filter-multicast \
-        gluon-ebtables-filter-ra-dhcp \
-        gluon-luci-admin \
-        gluon-luci-autoupdater \
-        gluon-luci-mesh-vpn-fastd \
-        gluon-luci-portconfig \
-        gluon-luci-private-wifi \
-        gluon-luci-wifi-config \
-        gluon-next-node \
-        gluon-mesh-vpn-fastd \
-	gluon-mesh-vpn-tunneldigger \
-        gluon-radvd \
-        gluon-status-page \
+	gluon-mesh-batman-adv-15 \
+	gluon-alfred \
+	gluon-respondd \
+	gluon-autoupdater \
 	gluon-setup-mode \
 	gluon-config-mode-core \
-        iwinfo \
-        iptables \
-        haveged
+	gluon-config-mode-autoupdater \
+	gluon-config-mode-hostname \
+	gluon-config-mode-tunneldigger \
+	gluon-config-mode-geo-location \
+	gluon-config-mode-contact-info \
+	gluon-ebtables-filter-multicast \
+	gluon-ebtables-filter-ra-dhcp \
+	gluon-luci-admin \
+	gluon-luci-autoupdater \
+	gluon-luci-mesh-vpn-fastd \
+	gluon-luci-portconfig \
+	gluon-luci-private-wifi \
+	gluon-luci-wifi-config \
+	gluon-next-node \
+	gluon-mesh-vpn-fastd \
+	gluon-mesh-vpn-tunneldigger \
+	gluon-radvd \
+	gluon-status-page \
+	gluon-setup-mode \
+	gluon-config-mode-core \
+	iwinfo \
+	iptables \
+	haveged
 
 DEFAULT_GLUON_RELEASE := 0.8.5
 
