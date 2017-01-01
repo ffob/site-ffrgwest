@@ -31,7 +31,7 @@ GLUON_SITE_PACKAGES := \
 
 GLUON_LANGS ?= en de
 
-DEFAULT_GLUON_RELEASE := 0.8.7+exp$(shell date '+%Y%m%d')+ffrgwest
+DEFAULT_GLUON_RELEASE := 0.8.8+exp$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
